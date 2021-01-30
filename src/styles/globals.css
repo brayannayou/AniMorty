@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.ant-card-body::before {
+  content: none !important;
+}
+
+.ant-card-body::after {
+  content: none !important;
+}
